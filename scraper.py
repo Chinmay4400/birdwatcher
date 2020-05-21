@@ -30,3 +30,5 @@ for name, sci_name in zip(names,sci_names):
 with open("queries.txt", 'w') as f:
     for each in queries:
         f.write(f"{each}\n")
+
+

@@ -10,8 +10,11 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.options import Options
 
 
-if(len(sys.argv)==1):
+if len(sys.argv)==1 :
     sys.exit("No queries provided.")
+
+if len(sys.argv)>2 :
+    sys.exit("Only one file should be passed.")
 
 
 download_path = pathlib.Path.cwd()/'birds'
@@ -23,14 +26,16 @@ profile.set_preference("browser.download.folderList", 2)
 profile.set_preference("browser.helperApps.neverAsk.saveToDisk","text/csv")
 profile.set_preference("browser.download.dir", str(download_path))
 
-queries = sys.argv[1:]
+queries_file = sys.argv[1]
+with open(queries_file) as f:
+    queries = [line.strip() for line in f]
 
 wd = webdriver.Firefox(profile,options = options)
 wd.get("http://images.google.com")
 
 for query in queries:
 
-    print(f"Downloading {query}.csv ...")
+    print(f"Downloading {query.replace(' ','_')}.csv ...")
 
     search_box = wd.find_element_by_name('q')
     search_box.send_keys(query)
@@ -66,6 +71,7 @@ for query in queries:
     paths = sorted(pathlib.Path(download_path).iterdir(), key=os.path.getmtime)
 
     latest = paths[-1]
+    query = query.replace(' ','_')
     latest = latest.rename(f'{query}.csv')
     shutil.move(str(latest),str(download_path))
 
