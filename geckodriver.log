@@ -81,3 +81,17 @@ Exiting due to channel error.
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x380128,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
 
+1590088774144	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJtLikT"
+*** You are running in headless mode.
+1590088775477	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590088775525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590088775525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590088775525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590088775525	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590088783539	Marionette	INFO	Listening on port 35217
+1590088783610	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:1129280): GLib-GIO-WARNING **: 00:50:14.591: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(firefox:1129280): GLib-GObject-CRITICAL **: 00:50:14.842: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1590088815819	Marionette	INFO	Stopped listening on port 35217

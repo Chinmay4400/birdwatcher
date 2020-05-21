@@ -1,4 +1,4 @@
-Common Myna Acridotheres tristis 
+Common Myna Acridotheres tristis
 Black Kite Milvus migrans
 Rock Pigeon Columba livia
 Rose ringed Parakeet Psittacula krameri
@@ -17,3 +17,4 @@ Spotted Dove Streptopelia chinensis
 Purple Sunbird Nectarinia asiatica
 Little Cormorant Phalacrocorax niger
 Asian Koel Eudynamys scolopacea
+Little Egret Egretta garzetta

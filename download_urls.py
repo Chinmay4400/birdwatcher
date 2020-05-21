@@ -35,6 +35,7 @@ wd.get("http://images.google.com")
 
 for query in queries:
 
+    print("--"+query+"--")
     print(f"Downloading {query.replace(' ','_')}.csv ...")
 
     search_box = wd.find_element_by_name('q')
