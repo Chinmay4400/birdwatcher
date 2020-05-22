@@ -35,8 +35,7 @@ wd.get("http://images.google.com")
 
 for query in queries:
 
-    print("--"+query+"--")
-    print(f"Downloading {query.replace(' ','_')}.csv ...")
+    print(f"-----------Downloading {query.replace(' ','_')}.csv----------")
 
     search_box = wd.find_element_by_name('q')
     search_box.send_keys(query)
@@ -48,6 +47,8 @@ for query in queries:
                 //input[@value='Show more results']
             """)
             show_more.click()
+            print('-----------waiting for more results------------')
+            time.sleep(3)
         except:
             wd.execute_script("window.scrollTo(0,document.body.scrollHeight);")
             time.sleep(1)
