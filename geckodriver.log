@@ -95,3 +95,55 @@ Exiting due to channel error.
 
 (firefox:1129280): GLib-GObject-CRITICAL **: 00:50:14.842: g_object_get: assertion 'G_IS_OBJECT (object)' failed
 1590088815819	Marionette	INFO	Stopped listening on port 35217
+1590155792364	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMxAVZM"
+*** You are running in headless mode.
+1590155792708	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590155792730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590155792730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590155792730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590155792730	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590155794449	Marionette	INFO	Listening on port 35935
+1590155794479	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:23090): GLib-GIO-WARNING **: 19:26:41.663: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:26:41.721: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:26:45.331: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:26:49.117: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:26:52.829: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:26:56.664: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:00.601: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:04.506: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:08.371: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:13.157: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:17.369: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:20.754: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:25.087: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:28.666: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:32.459: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:36.338: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:41.657: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:46.464: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:50.502: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:54.673: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:23090): GLib-GObject-CRITICAL **: 19:27:58.583: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1590155878831	Marionette	INFO	Stopped listening on port 35935
