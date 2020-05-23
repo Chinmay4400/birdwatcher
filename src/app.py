@@ -43,7 +43,7 @@ def predict(img, n: int = 3) -> Dict[str, Union[str, List]]:
         output = round(output, 1)
         prob = round(prob, 2)
         predictions.append(
-            {"class": image_class, "output": output, "prob": prob}
+            {"class": image_class.replace("_", " "), "output": output, "prob": prob}
         )
 
     predictions = sorted(predictions, key=lambda x: x["output"], reverse=True)

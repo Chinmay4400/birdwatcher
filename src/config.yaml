@@ -1,0 +1,36 @@
+title: Indian City Birds Classifier
+description: Classify common birds found in Indian cities using their images
+about: This project  is made using fastai built on top of torch.
+
+
+code: https://github.com/Chinmay4400/birdwatcher
+
+sampleImages:
+  - name: Black Kite
+    url: https://www.thainationalparks.com/img/species/wiki/2013/07/09/6474/2007-black-kite-800x600.jpg
+  - name: Black Drongo
+    url: https://test.cdn.download.ams.birds.cornell.edu/api/v1/asset/126548371/1800
+  - name: Common Myna
+    url: https://media.australianmuseum.net.au/media/dd/images/Some_image.width-800.3707bb5.jpg
+  - name: Rose Ringed Parakeet
+    url: https://1.bp.blogspot.com/-hKqTCTUpjYg/XSNZ5bqYBsI/AAAAAAAAA3Q/DLYZzr55b4oDD5Wj6lwM2XbG3eJBFojwgCLcBGAs/s1600/ringneck_parrot.jpg
+  - name: House Crow
+    url: https://lh3.googleusercontent.com/proxy/ihFvk6eAHcHcM6oD6vMDfzKCXnMwuok6RNW2J7aCvUxrAiE5y8A2I0euSha_2TwSqgszZvEArSRszjjTZSodVTi4qwRNC27gfpIZlhIynrAzZZI2A5KUeomBxJGx45E
+  - name: House Sparrow
+    url: https://www.allaboutbirds.org/guide/assets/photo/63742371-480px.jpg
+  - name: Asian Koel
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Asian_koel.jpg/1200px-Asian_koel.jpg
+  - name: White throated kingfisher
+    url: https://test.cdn.download.ams.birds.cornell.edu/api/v1/asset/126564111/1800
+  - name: Spotted Dove
+    url: https://1.bp.blogspot.com/-o82zczIT9i4/W5n5H20EIrI/AAAAAAAABiI/jkuMwNmJOMkIwmenQPssxGlyw-CuR1jUgCKgBGAs/s1600/DSCN0010.JPG
+  - name: Rock Pigeon
+    url: https://www.allaboutbirds.org/guide/assets/photo/66031271-480px.jpg
+  - name: Red Vented Bulbul
+    url: https://upload.wikimedia.org/wikipedia/commons/7/72/Red-vented_Bulbul_%28Pycnonotus_cafer%29_feeding_at_Kapok_%28Ceiba_pentandra%29_at_Kolkata_I_IMG_2535.jpg
+  - name: Purple Sunbird
+    url: https://lh3.googleusercontent.com/proxy/h4KiTGUF11PYvZ9DQe9Ancz0UjYaQ5Y4ln3mQ-rloLCVpV5bRd4K-eIaZuQQmHNc7BTx_gSIGTpyAMzBWjMLuoPT_mmb_rZNpmyc70X7baBljE9U0m4Kn94kmeTsdc7xF04EQQ
+  - name: Oriental Magpie Robin
+    url: https://test.cdn.download.ams.birds.cornell.edu/api/v1/asset/126371181/900
+  - name: Indian Pond Heron
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Indian_Pond_Heron_%28Ardeola_grayii%29_in_Breeding_plumage_walking_cautiously_in_Kolkata_I_IMG_7936.jpg/220px-Indian_Pond_Heron_%28Ardeola_grayii%29_in_Breeding_plumage_walking_cautiously_in_Kolkata_I_IMG_7936.jpg
