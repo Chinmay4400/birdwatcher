@@ -1,7 +1,6 @@
 title: Indian City Birds Classifier
 description: Classify common birds found in Indian cities using their images
-about: This project  is made using fastai built on top of torch.
-
+about: This project aims at identifying birds from images. The model was trained using images from google images and fastai.
 
 code: https://github.com/Chinmay4400/birdwatcher
 

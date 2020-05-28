@@ -7,18 +7,18 @@ from io import BytesIO
 from typing import List, Dict, Union, ByteString, Any
 import os
 import flask
-from flask import Flask
+from flask import Flask, render_template
 import requests
 import torch
 import json
 
-with open("src/config.yaml", 'r') as stream:
+with open("config.yaml", 'r') as stream:
     APP_CONFIG = yaml.full_load(stream)
 
 app = Flask(__name__)
 
 
-def load_model(path):
+def load_model(path="."):
     learn = load_learner(path)
     return learn
 
@@ -43,7 +43,7 @@ def predict(img, n: int = 3) -> Dict[str, Union[str, List]]:
         output = round(output, 1)
         prob = round(prob, 2)
         predictions.append(
-            {"class": image_class, "output": output, "prob": prob}
+            {"class": image_class.replace("_", " "), "output": output, "prob": prob}
         )
 
     predictions = sorted(predictions, key=lambda x: x["output"], reverse=True)
@@ -99,7 +99,7 @@ def static_file(path):
 
 @app.route('/')
 def root():
-    return app.send_static_file('index.html')
+    return render_template('index.html')
 
 
 def before_request():
