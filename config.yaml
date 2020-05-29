@@ -1,6 +1,17 @@
 title: WHICHBIRD
-description: Identify bird images as one of the commonly found city birds in Indian subcontinent.
-about: This project aims to help users easily identify birds using their images. <br>The cnn used to classify birds is made using fastai library with images obtained from images.google.com.<br>I've made use of selenium to automate the download of images and creation of dataset.<br>The 20 bird categories used to train the model were obtained from most commonly found birds in Indian citites according to kolkatabirds.com.
+
+description: What bird is this?
+
+about: wabba laaba dub dub
+
+
+  This project aims to help users easily identify birds using their images.
+
+  The cnn used to classify birds is made using fastai library with images obtained from images.google.com.
+
+  I've made use of selenium to automate the download of images and creation of dataset.
+
+  The 20 bird categories used to train the model were obtained from most commonly found birds in Indian citites according to kolkatabirds.com.
 
 code: https://github.com/Chinmay4400/birdwatcher
 

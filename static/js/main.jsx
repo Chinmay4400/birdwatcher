@@ -37,11 +37,11 @@ const Select = window.Select;
 
 //import { Button } from 'reactstrap';
 
-// Obtain the root 
+// Obtain the root
 const rootElement = document.getElementById('root');
 
 
-class About extends React.Component {
+class about extends React.Component {
     //
 
 // Use the render function to return JSX component
@@ -49,7 +49,7 @@ class About extends React.Component {
         return (
 
             <div>
-                <h1>About</h1>
+                <h1>about</h1>
                 <ReactMarkdown source={window.APP_CONFIG.about}/>
             </div>
         );
@@ -242,7 +242,7 @@ class CustomNavBar extends React.Component {
                 <Collapse navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/about">About</NavLink>
+                            <NavLink href="/about">about</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href={link}>GitHub</NavLink>
@@ -266,7 +266,7 @@ function App() {
                 <div>
                     <main role="main" className="container">
                         <Route exact path="/" component={MainPage}/>
-                        <Route exact path="/about" component={About}/>
+                        <Route exact path="/about" component={about}/>
 
                     </main>
 
