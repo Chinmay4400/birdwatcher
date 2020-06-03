@@ -16,6 +16,7 @@ with open("config.yaml", 'r') as stream:
     APP_CONFIG = yaml.full_load(stream)
 
 app = Flask(__name__)
+server = app.server
 
 
 def load_model(path="."):
