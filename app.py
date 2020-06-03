@@ -94,7 +94,7 @@ def static_file(path):
     if ".js" in path or ".css" in path:
         return app.send_static_file(path)
     else:
-        return app.send_static_file('index.html')
+        return render_template('index.html')
 
 
 @app.route('/')
