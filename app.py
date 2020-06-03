@@ -16,7 +16,6 @@ with open("config.yaml", 'r') as stream:
     APP_CONFIG = yaml.full_load(stream)
 
 app = Flask(__name__)
-server = app.server
 
 
 def load_model(path="."):
@@ -110,10 +109,4 @@ def before_request():
 model = load_model('models')
 
 if __name__ == '__main__':
-    port = os.environ.get('PORT', 5000)
-
-    if "prepare" not in sys.argv:
-        app.jinja_env.auto_reload = True
-        app.config['TEMPLATES_AUTO_RELOAD'] = True
-        app.run(debug=False, host='0.0.0.0', port=port)
-        # app.run(host='0.0.0.0', port=port)
+    app.run(debug=False)
